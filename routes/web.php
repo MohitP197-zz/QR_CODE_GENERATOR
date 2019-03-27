@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('myQR', function () {  
+    return view('qrCode');
+      
+  });
+
+
+Route::post('myQRCODE', 'QRCODECONTROLLER@showQR')->name('myQRCODE');
