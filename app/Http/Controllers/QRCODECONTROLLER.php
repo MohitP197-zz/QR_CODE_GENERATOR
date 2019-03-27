@@ -8,7 +8,7 @@ class QRCODECONTROLLER extends Controller
 {
     public function showQR()
     {
-        return view('displayQRCODE');
+        return view('displayQR');
         // return back();
     }
 }

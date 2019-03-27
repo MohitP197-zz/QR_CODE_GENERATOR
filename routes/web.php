@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('myQR', function () {  
-    return view('qrCode');
+    return view('main');
       
   });
 
